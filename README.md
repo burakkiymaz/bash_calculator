@@ -8,3 +8,4 @@ Programı açmak için için;
 yazmanız yeterli olacaktır. Daha sonrasında işlemleri ister +,-,*,/ karakterleriyle; ister 'topla', 'çıkar', 'çarp', 'böl' gibi komutlarla yaptırabilirsiniz.
 
 Örnek 
+![](/project.png)
