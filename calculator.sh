@@ -1,11 +1,11 @@
-#!/bin/bash                                                                                                                                                                           
-sonuc=0                                                                                       
-                                                                                              
-function init(){                                                                              
-        echo -n 'Nasıl işlem yapmak istersin? (Tamsayı [t], Ondalık [o])'                     
-        read opt                                                                              
-        case $opt in                                                                          
-                [Tt])                                                                         
+#!/bin/bash
+sonuc=0
+
+function init(){
+        echo -n 'Nasıl işlem yapmak istersin? (Tamsayı [t], Ondalık [o]):  '
+        read opt
+        case $opt in
+                [Tt])
                 echo -n sayi 1:
                 read sayi1
 
@@ -30,7 +30,7 @@ function init(){
         # işlem sorma kısmı
                 #Tamsayı toplamı
 
-                echo -n 'Hangi işlemi yapmak istersin? (+,-,*,/) : '
+                echo -n 'Hangi işlemi yapmak istersin? (+,-,*,/) :   '
                 read islem
 
                 case $islem in
@@ -61,7 +61,7 @@ function init(){
 
         #Tekrar işlem yapmak ister misin yoksa bu kadar yeter mi?
 
-        echo 'Başka bir işlem yapmak ister misiniz? (E-H):'
+        echo 'Başka bir işlem yapmak ister misiniz? (E-H):  '
         read tekrar
 
         if [[ $tekrar == [e] || $tekrar == [E] ]];
